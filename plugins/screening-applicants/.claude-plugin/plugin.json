@@ -1,0 +1,11 @@
+{
+  "name": "screening-applicants",
+  "displayName": "Screening Applicants",
+  "version": "0.1.0",
+  "description": "Screen job candidates in Recruitee against a structured rubric and post evaluation notes, via the anonymized Recruitee MCP toolset.",
+  "author": {
+    "name": "Leïla Benjelloun",
+    "email": "leila.benjelloun@neho.ch"
+  },
+  "keywords": ["recruitee", "screening", "hr", "candidates", "rubric"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "leila-plugins",
+  "owner": {
+    "name": "Leïla Benjelloun",
+    "email": "leila.benjelloun@neho.ch"
+  },
+  "metadata": {
+    "description": "Leïla's personal Claude plugin marketplace — a staging ground for tools before they're proven enough to promote into the PropTech Partners company marketplace.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "screening-applicants",
+      "source": "./plugins/screening-applicants",
+      "description": "Screen job candidates in Recruitee against a structured rubric and post evaluation notes, via the anonymized Recruitee MCP toolset.",
+      "version": "0.1.0",
+      "keywords": ["recruitee", "screening", "hr", "candidates", "rubric"]
+    }
+  ]
+}
