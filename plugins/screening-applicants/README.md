@@ -14,6 +14,7 @@ Given an offer and pipeline stage, this skill lists undecided candidates, checks
 ## Known v1 limitations
 
 - Screening runs entirely on Recruitee's own parsed CV fields — the raw CV PDF is never exposed to Claude, by design (this is the anonymization boundary, not a bug).
+    --> We don't know yet impact on real-life screening (quality ??)
 - Posted notes are plain text only. Bold/rich formatting isn't supported by the underlying note-creation tool (confirmed by direct testing) — see `references/note-formatting.md`.
 - This skill does not resolve note-to-offer scoping ambiguity if a candidate has applied to multiple offers — a known, accepted limitation of the underlying Recruitee API.
 
